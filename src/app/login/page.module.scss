@@ -1,0 +1,101 @@
+.inputs{
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap:20px;
+  input{
+    padding: 10px 25px;
+    border-radius: 25px;
+    width: 300px;
+    border: none;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    outline: none;
+  }
+
+  .input_buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    button{
+      background-color: #c2fbd7;
+      border-radius: 100px;
+      box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+      color: green;
+      cursor: pointer;
+      display: inline-block;
+      font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+      padding: 7px 25px;
+      text-align: center;
+      text-decoration: none;
+      transition: all 250ms;
+      border: 0;
+      font-size: 16px;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+        :hover {
+          box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+          transform: scale(1.05) rotate(-1deg);
+      }
+    }
+  }
+
+  .auth_buttons{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    .google_login_button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px 20px;
+      font-size: 16px;
+      font-weight: bold;
+      border: none;
+      border-radius: 25px;
+      color:gray;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      img{
+        width: 25px;
+        height: 25px;
+        margin-right: 10px;
+    }
+  }
+
+  .github_login_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 25px;
+    background-color: #333;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    :hover{
+      background-color: #242424;
+    }
+    img{
+      width: 25px;
+      height: 25px;
+      margin-right: 10px;
+      border-radius: 50%;
+      }
+    }
+  }
+}
+
+.register{
+  margin-top: 20px;
+  color: #949494;
+  .link{
+    color: rgb(64, 64, 241);
+  }
+}
